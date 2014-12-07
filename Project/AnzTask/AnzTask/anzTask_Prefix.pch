@@ -1,0 +1,12 @@
+//
+//  AnzTask-Prefix.pch
+//  AnzTask
+//
+//  Created by Ning Gu on 7/12/2014.
+//  Copyright (c) 2014 Ning Gu. All rights reserved.
+//
+
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#endif

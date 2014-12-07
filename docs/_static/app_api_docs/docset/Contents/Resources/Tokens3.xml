@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/Earthquake.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/Earthquake</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Earthquake.h</DeclaredIn>
+            
+			
+			<NodeRef refid="3"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Earthquake/setEqid:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Earthquake.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *eqid</Declaration>
+			
+			
+			<Anchor>//api/name/eqid</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Earthquake/eqid</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Earthquake.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *eqid</Declaration>
+			
+			
+			<Anchor>//api/name/eqid</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Earthquake/eqid</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Earthquake.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *eqid</Declaration>
+			
+			
+			<Anchor>//api/name/eqid</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Earthquake/setRegion:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Earthquake.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *region</Declaration>
+			
+			
+			<Anchor>//api/name/region</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Earthquake/region</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Earthquake.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *region</Declaration>
+			
+			
+			<Anchor>//api/name/region</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Earthquake/region</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Earthquake.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *region</Declaration>
+			
+			
+			<Anchor>//api/name/region</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Earthquake/setDate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Earthquake.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *date</Declaration>
+			
+			
+			<Anchor>//api/name/date</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Earthquake/date</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Earthquake.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *date</Declaration>
+			
+			
+			<Anchor>//api/name/date</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Earthquake/date</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Earthquake.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *date</Declaration>
+			
+			
+			<Anchor>//api/name/date</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Earthquake/setMagnitude:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Earthquake.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *magnitude</Declaration>
+			
+			
+			<Anchor>//api/name/magnitude</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Earthquake/magnitude</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Earthquake.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *magnitude</Declaration>
+			
+			
+			<Anchor>//api/name/magnitude</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Earthquake/magnitude</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Earthquake.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *magnitude</Declaration>
+			
+			
+			<Anchor>//api/name/magnitude</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Earthquake/setDepth:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Earthquake.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *depth</Declaration>
+			
+			
+			<Anchor>//api/name/depth</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Earthquake/depth</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Earthquake.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *depth</Declaration>
+			
+			
+			<Anchor>//api/name/depth</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Earthquake/depth</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Earthquake.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *depth</Declaration>
+			
+			
+			<Anchor>//api/name/depth</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Earthquake/setSrc:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Earthquake.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *src</Declaration>
+			
+			
+			<Anchor>//api/name/src</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Earthquake/src</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Earthquake.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *src</Declaration>
+			
+			
+			<Anchor>//api/name/src</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Earthquake/src</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Earthquake.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *src</Declaration>
+			
+			
+			<Anchor>//api/name/src</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Earthquake/setLongitude:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Earthquake.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *longitude</Declaration>
+			
+			
+			<Anchor>//api/name/longitude</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Earthquake/longitude</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Earthquake.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *longitude</Declaration>
+			
+			
+			<Anchor>//api/name/longitude</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Earthquake/longitude</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Earthquake.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *longitude</Declaration>
+			
+			
+			<Anchor>//api/name/longitude</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Earthquake/setLatitude:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Earthquake.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *latitude</Declaration>
+			
+			
+			<Anchor>//api/name/latitude</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Earthquake/latitude</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Earthquake.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *latitude</Declaration>
+			
+			
+			<Anchor>//api/name/latitude</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Earthquake/latitude</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Earthquake.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *latitude</Declaration>
+			
+			
+			<Anchor>//api/name/latitude</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

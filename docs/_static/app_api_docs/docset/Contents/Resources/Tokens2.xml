@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CircleButton.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CircleButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CircleButton.h</DeclaredIn>
+            
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CircleButton/drawCircleButton:</TokenIdentifier>
+			<Abstract type="html">Convert a normal rectange button into a round button</Abstract>
+			<DeclaredIn>CircleButton.h</DeclaredIn>
+			
+			<Declaration>- (void)drawCircleButton:(UIColor *)color</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>color</Name>
+					<Abstract type="html">The filled button color</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/drawCircleButton:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>
