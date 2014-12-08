@@ -29,6 +29,12 @@ NSString *const SERVER_URL = @"http://www.seismi.org/api/eqs/";
     return instance;
 }
 
+- (void)dealloc
+{
+    [[AnzRestfulManager sharedInstance] release];
+    [super dealloc];
+}
+
 /*!
     Build full RESTful url based on request API ID
  

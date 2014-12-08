@@ -17,6 +17,30 @@
 
 @implementation CircleButton
 
+/*!
+ Set button filled color
+ @param newColor The filled color
+ */
+- (void)setColor: (UIColor *)newColor
+{
+    [newColor retain];
+    [_color release];
+    
+    _color = newColor;
+}
+
+/*!
+ Set new layer for button
+ @param circleLayer The new layer
+ */
+- (void)setCircleLayer:(CAShapeLayer *)circleLayer
+{
+    [circleLayer retain];
+    [_circleLayer release];
+    
+    _circleLayer = circleLayer;
+}
+
 - (void)drawCircleButton:(UIColor *)color
 {
     if (_circleLayer) {

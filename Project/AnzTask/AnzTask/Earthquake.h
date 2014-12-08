@@ -18,4 +18,7 @@
 @property (nonatomic, strong) NSString *src;
 @property (nonatomic, strong) NSString *longitude;
 @property (nonatomic, strong) NSString *latitude;
+
+- (instancetype)init;
+
 @end

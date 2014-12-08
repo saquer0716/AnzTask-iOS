@@ -7,8 +7,11 @@
 //
 
 typedef NS_ENUM(NSInteger, RestulApiId) {
+    //Earthquake data
     RestfulApiEarthquackData,
+    //Weahter data
     RestfulApiWeatherData,
+    //add your new request id here
 };
 
 typedef void(^RequestCompletionHander) (NSDictionary *, NSError *);

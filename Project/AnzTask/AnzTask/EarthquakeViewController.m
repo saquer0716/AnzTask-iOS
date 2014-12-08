@@ -37,6 +37,14 @@
     return _depthIndexPaths;
 }
 
+- (void)setearthquakeData:(NSArray *)newData
+{
+    [newData retain];
+    [_earthquakeData release];
+    
+    _earthquakeData = newData;
+}
+
 #pragma mark - ViewController life cycle method
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -115,6 +123,7 @@
     cell.layoutMargins = UIEdgeInsetsZero;
     
     NSDictionary *earthquakeData = self.earthquakeData[indexPath.row];
+    [earthquakeData retain];
 
     UILabel *regionLabel = (UILabel *)[cell viewWithTag:10];
     regionLabel.text = earthquakeData[@"region"];
@@ -131,6 +140,8 @@
     //need to update button's title based on whether it's showing magnitude or depth.
     [button setTitle: [self.depthIndexPaths containsObject:indexPath] ? earthquakeData[@"depth"] : earthquakeData[@"magnitude"] forState:UIControlStateNormal];
     
+    [earthquakeData release];
+    
     [button addTarget:self action:@selector(onCircleButtonClick:) forControlEvents:UIControlEventTouchUpInside];
     
     return cell;
@@ -145,6 +156,7 @@
     if (mapItemClass && [mapItemClass respondsToSelector:@selector(openMapsWithItems:launchOptions:)])
     {
         NSDictionary *earthquakeData = self.earthquakeData[indexPath.row];
+        [earthquakeData retain];
         
         CLLocationCoordinate2D coordinate = CLLocationCoordinate2DMake(((NSString *)earthquakeData[@"lat"]).doubleValue, ((NSString *)earthquakeData[@"log"]).doubleValue);
         MKPlacemark *placemark = [[MKPlacemark alloc] initWithCoordinate:coordinate
@@ -153,6 +165,8 @@
         [placemark release];
         
         [mapItem setName:earthquakeData[@"region"]];
+        
+        [earthquakeData release];
         [mapItem openInMapsWithLaunchOptions:nil];
         [mapItem release];
     }
@@ -175,7 +189,7 @@
     UILabel *magnitude = (UILabel *)[cell viewWithTag:12];
     
     NSDictionary *earthquakeData = self.earthquakeData[indexPath.row];
-    
+    [earthquakeData retain];
     
     if ([self.depthIndexPaths containsObject:indexPath]) {
         [button setTitle:earthquakeData[@"magnitude"] forState:UIControlStateNormal];
@@ -186,6 +200,8 @@
         magnitude.text = @"depth";
         [self.depthIndexPaths addObject:indexPath];
     }
+    
+    [earthquakeData release];
     
     [UIView transitionWithView:button
                       duration:0.6
